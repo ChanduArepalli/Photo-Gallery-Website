@@ -1,0 +1,142 @@
+
+
+body{
+    background-color: black;
+    text-align: center;
+}
+nav{
+    margin-top: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Play');
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+}
+ul li{
+    font-size: 25px;
+    margin-left: 15px;
+    font-family: 'Play', sans-serif;
+}
+ul li:hover {
+    background-color: black;
+    transform: scale(1.3);
+}
+
+.cover{
+    display: inline-block;
+    width: 100%;
+    height:auto;
+    border: 3px solid rgb(26, 26, 26);
+}
+.cover img{
+    width: 100%;
+}
+
+
+
+.title{
+    font-family: 'Clicker Script', cursive;
+}
+
+
+
+.main{
+    display: inline-block;
+    width: 290px;
+    margin: 5px;
+}
+.main:hover{
+
+        transform: scale(1.1);
+
+}
+.main-img{
+    display: inline-block;
+    width: 100%;
+    height: 193px;
+
+    background-size: cover;
+    background-position: center;
+    filter: opacity(0.6);
+    z-index: 3;
+}
+
+.main-img:hover{
+    filter: opacity(1);
+}
+.main p{
+    margin-top: -80px;
+    color: white;
+    font-size: 50px;
+    z-index: 4;
+}
+
+
+.page-title h1{
+    color: rgb(255, 255, 255);
+}
+
+.main-shoot{
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.main-shoot img{
+    width: 400px;
+    margin: 5px;
+}
+.main-shoot img:hover{
+    transform: scale(1.05);
+}
+
+
+.shoot-L{
+    width: 100%;
+    display: block;
+}
+
+.shoot-L img {
+    display: inline-block;
+    width: 567px;
+    margin: 15px;
+}
+
+.shoot-L img:hover{
+    transform: scale(1.1);
+}
+
+.shoot-P img{
+    display: inline-block;
+    width: 400px;
+    margin: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shoot-P img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+.footer-block{
+    width: 100%;
+    display: block;
+    background-color: rgba(80, 80, 80, 0.48);
+}
+.block-in{
+    display: inline-block;
+    width: 20%;
+    margin: 5px;
+    margin-top: 15px;
+
+}
+.block-in p{
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 20px;
+}

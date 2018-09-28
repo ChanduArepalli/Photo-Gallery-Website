@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block title %} Yaswanth Raparthi Photography {% endblock %}
+
+{% block body %}
+<br><br><br>
+
+
+
+<div class="main">
+    <a href="{% url 'wedding' %}">
+        <div class="main-img" style="background-image: url({% static 'wl1.jpg' %});">
+
+        </div>
+        <p> Wedding </p>
+    </a>
+</div>
+
+<div class="main">
+    <a href="{% url 'corporate' %}">
+        <div class="main-img" style="background-image: url({% static 'wl1.jpg' %});">
+
+        </div>
+        <p> Corporate </p>
+    </a>
+</div>
+
+<div class="main">
+    <a href="{% url 'couple' %}">
+        <div class="main-img" style="background-image: url({% static 'wl1.jpg' %});">
+
+        </div>
+        <p> Couple </p>
+    </a>
+</div>
+
+<div class="main">
+    <a href="{% url 'baby' %}">
+        <div class="main-img" style="background-image: url({% static 'baby_1.jpg' %});">
+
+        </div>
+            <p>Baby </p>
+
+    </a>
+</div>
+
+<div class="main">
+    <a href="{% url 'fashion' %}">
+        <div class="main-img" style="background-image: url({% static 'dl3.jpg' %});">
+
+        </div>
+            <p> Fashion </p>
+    </a>
+</div>
+
+<div class="main">
+    <a href="party">
+        <div class="main-img" style="background-image: url({% static 'pl.jpg' %});">
+
+        </div>
+        <p>Party</p>
+    </a>
+</div>
+
+
+
+
+<br><br>
+<div class="main-shoot">
+    <h2>Out Door Shoot </h2>
+
+    <img src="{% static 'OutDoor/dl1.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl2.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl3.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl3.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl1.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl2.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl4.jpg' %}" alt="">
+    <img src="{% static 'OutDoor/dl1.jpg' %}" alt="">
+    <br><br>
+    <a href="{% url 'fashion' %}"> click here to see more  </a>
+
+</div>
+
+
+
+{% endblock %}
